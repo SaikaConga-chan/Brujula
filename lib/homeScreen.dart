@@ -7,6 +7,15 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Background Image Demo',
+      home: Container( // Wrap the Scaffold with a Container
+        decoration: const BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('assets/img.png'), // Reference your asset here
+            fit: BoxFit.cover, // Ensures the image covers the entire screen
+          ),
+        ),
     // Estilo para los nombres en color negro/gris oscuro
     const TextStyle nombreEstilo = TextStyle(
       fontSize: 16,
