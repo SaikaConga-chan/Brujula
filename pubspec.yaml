@@ -22,6 +22,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/logo_unison.png
+    - assets/img.png
 
 flutter_launcher_icons:
   android: "launcher_icon"
